@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include <string.h>
+
 
 
 typedef enum
@@ -58,6 +60,7 @@ typedef struct
     int length;
     int line;
 } Token;
+
 
 // 噫，搞个链表存Token，噫
 typedef struct
