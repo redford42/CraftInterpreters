@@ -4,7 +4,6 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceRoot}",
-                // "C:/Program Files/mingw64/include/**",
                 "D:/SDK/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++",
                 "D:/SDK/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32",
                 "D:/SDK/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward",
@@ -12,7 +11,7 @@
                 "D:/SDK/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed",
                 "D:/SDK/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
             ],
-           "defines": [
+            "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "__GNUC__=6",
@@ -24,7 +23,6 @@
                 "databaseFilename": "",
                 "path": [
                     "${workspaceRoot}",
-                    // "C:/Program Files/mingw64/include/**",
                     "D:/SDK/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++",
                     "D:/SDK/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32",
                     "D:/SDK/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward",
