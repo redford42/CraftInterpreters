@@ -329,9 +329,12 @@ Token scanToken()
 
 void scanAllToken(Token *tokenStart) {
   int tokenCount = 0;
+  int oriArrayCount = 8;
   while(!isAtEnd()) {
     Token temp = scanToken();
     // fprintf(stderr, "Token temp \"%d\".\n", temp.type);
     tokenStart[tokenCount++] = temp;
   }
+  tokenStart[tokenCount] = makeToken(TOKEN_EOF);
+  fprintf(stderr, "Token temp \"%d\".\n", tokenStart[tokenCount].type);
 }
