@@ -22,6 +22,7 @@ typedef struct
 	Value* stackTop;
 	Table globals; // 全局变量驻留
 	Table strings; // String驻留
+	ObjString* initString;
 	ObjUpvalue* openUpvalues;
 	Obj* objects;
 } VM;
