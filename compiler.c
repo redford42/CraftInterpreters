@@ -263,8 +263,8 @@ static void initCompiler(Compiler* compiler, FunctionType type) {
 	}
 
 
-	local->name.start = "";
-	local->name.length = 0;
+	/*local->name.start = "";
+	local->name.length = 0;*/
 }
 
 static ObjFunction* endCompiler()
